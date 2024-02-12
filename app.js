@@ -153,11 +153,11 @@ function initialize()
         let first = samepleNames[0];
 
         // call function the build metadata
-        demoInfo(sample1);
+        demoInfo(first);
         // call function to build the bar chart
-        buildBarChart(sample1)
+        buildBarChart(first)
         // call bubble chart
-        buildBubbleChart(sample1)
+        buildBubbleChart(first)
 
     });
 
