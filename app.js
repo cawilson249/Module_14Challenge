@@ -120,7 +120,7 @@ function buildBubbleChart(sample)
         hovermode: "closest",
         xaxis: {title: "OTU ID"}
     };
-    Plotly.newPlot("bubble", [barChart], layout);
+    Plotly.newPlot("bubble", [bubbleChart], layout);
 });
 };
 
