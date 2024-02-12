@@ -71,7 +71,7 @@ function buildBarChart(sample)
         let layout = {
             title: "Top 10 Belly Button Bacteria"
         };
-        Ploty.newPlot("bar", [barChart], layout);
+        Plotly.newPlot("bar", [barChart], layout);
     });
 }
 
@@ -106,7 +106,7 @@ function buildBubbleChart(sample)
     let bubbleChart = {
         y: sample_values,
         x: otu_ids,
-        text: otu_values,
+        text: otu_labels,
         mode: "markers",
         marker: {
             size: sample_values,
